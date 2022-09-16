@@ -3,13 +3,27 @@ from PIL import Image
 class Image2Image:
     def __init__(self, path):
         self.path = path
-        self.extension = path.split('.')[-1]
+        self.format = path.split('.')[-1].lower()
+        self.image = Image.open(self.path);
+        self.rgb_image = self.image.convert('RGB');
     
     def ToPng(self):
-        image = Image.open(self.path);
-        rgb_image = image.convert('RGB');
-        rgb_image.save(f"{self.path.split('.')[0]}.png") # save image as png
+        return self.rgb_image.save(f"{self.path.split('.')[0]}.png")
+
+    def ToJpg(self):
+        return self.rgb_image.save(f"{self.path.split('.')[0]}.jpg")
+
+    def ToTiff(self):
+        return self.rgb_image.save(f"{self.path.split('.')[0]}.tiff")
+
+    def ToPDF(self):
+        return self.rgb_image.save(f"{self.path.split('.')[0]}.pdf")
+
+
 
 if __name__ == "__main__":
-    Image2Image("test\pic.jpg").ToPng()
+    Image2Image("test\img\pic.jpg").ToPDF()
+    Image2Image("test\img\pic.jpg").ToPng()
+    Image2Image("test\img\pic.png").ToJpg()
+    Image2Image("test\img\pic.jpg").ToTiff()
 
