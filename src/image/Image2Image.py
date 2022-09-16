@@ -1,6 +1,6 @@
 class Image2Image:
-    def __init__(self):
-        pass
+    def __init__(self, path):
+        self.path = path
     
     def jpg2jpeg():
         pass
