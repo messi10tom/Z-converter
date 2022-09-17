@@ -1,7 +1,7 @@
 <h1>
-    <img align="center" src="{Source to image}" width="100%" alt="Project logo/image"/>
+    <img align="center" src="{Source to image}" width="100%" alt="Z-converter logo/image"/>
 </h1>
-<h2 align="center">{Description}</h2>
+<h2 align="center">this repository can convert any format into given format if valid</h2>
 
 
 <hr>
@@ -42,24 +42,24 @@
   &bull; Feature <br>
   
  <h2 align='left'><u><b>Languages Used</b></u></h2>
- &bull; {Primary Language}  {version} <br>
+ &bull; Python  3.9 <br>
  &bull; {Secondary language} {version}<br>
  
  <h2 align='left'><u><b>Requerments </b></u></h2>
- &bull; {Repo} requeres {Name} {Version} or above<br>
+ &bull; Z-converter requeres {Name} {Version} or above<br>
  &bull; {Name} {Version}<br>
 
    
 | requirements | required version |
 | ---------    | ---------------- |
-| {Compiler}   | {version}        |
-| {Package}    | {version}        |
+| Python       | 3.9+             |
+| Pillow       | 1.0+             |
 | {System}     | {version}        |
 | {Libraries}  | {version}        |
 
 <h2 align='left'><u><b>Development</b></u></h2>
 
-&bull; Current version  <a href ="Link To Archive" >{Version} </a><br>
+&bull; Current version  <a href ="Link To Archive" >0.1 alpha </a><br>
 &bull; Last stable release <a href="Link To Archive" >{Version} </a><br> 
 
 <br>
@@ -80,14 +80,14 @@
 
 <h2 align="left"><b>Connect with me</b></h2>
 <p align="left">
-    <a href="https://twitter.com/user" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="@Twitter" height="30" width="40" /></a>
+    <a href="https://twitter.com/messi33390918" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="@Twitter" height="30" width="40" /></a>
     <a href="[Stackoverflow]" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="Stackoverflow" height="30" width="40" /></a>
-    <a href="https://instagram.com/username" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="username" height="30" width="40" /></a>
+    <a href="https://www.instagram.com/messi._.tom__/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="username" height="30" width="40" /></a>
 </p>
 
 <h2 align='left'><u><b>Installation</b></u></h2>
 <p>Install using git bash 
-<code>$git clone https://github.com/{User}/{Repo}.git</code><br>
+<code>$git clone https://github.com/messi10tom/z-converter.git</code><br>
 
  Or click download button 👇 <br>
  <a href="Link To archive" target="blank"><img align="center" src="https://github.com/Akshay-Vs/resources/blob/main/src/download_bt.png" alt="Download" height="78" width="200" /></a>
@@ -99,7 +99,7 @@ Download installer 👇 <br>
 
 <h2 align='left'><u><b>Instructions</b></u></h2>
 &#9724;Instruction<br>
-&#9724;Instructionr<br>
+&#9724;Instruction<br>
 &#9724;Instruction<br>
 &#9724;Instruction
 
