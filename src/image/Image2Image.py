@@ -1,3 +1,4 @@
+import os
 from PIL import Image
 
 class ConvertImage:
