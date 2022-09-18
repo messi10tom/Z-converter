@@ -1,6 +1,6 @@
 from PIL import Image
 
-class Image2Image:
+class ConvertImage:
     def __init__(self, path, name):
         self.path = path
         self.name = name
@@ -35,9 +35,9 @@ class Image2Image:
 
 
 if __name__ == "__main__":
-    Image2Image("test\img\pic.jpg").ToPDF()
-    Image2Image("test\img\pic.jpg").ToPng()
-    #Image2Image("test\img\pic.png").ToJpg()
-    Image2Image("test\img\pic.jpg").ToTiff()
-    Image2Image("test\img\pic.tiff").ToSvg()
+    ConvertImage("test\img\pic.jpg").ToPDF()
+    ConvertImage("test\img\pic.jpg").ToPng()
+    #ConvertImage("test\img\pic.png").ToJpg()
+    ConvertImage("test\img\pic.jpg").ToTiff()
+    ConvertImage("test\img\pic.tiff").ToSvg()
 
