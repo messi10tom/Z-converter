@@ -16,25 +16,25 @@ class ConvertImage:
         if self.format == 'jpeg':
             os.rename(self.path, os.path.join(os.path.dirname(self.path), self.name + ".jpg"))
             return 
-        return self.rgb_image.save(f"{self.path.split('.')[0]}.jpg")
+        return self.rgb_image.save(f"{os.path.basename(self.path).split('.')[0]}.jpg")
     
     def ToJpeg(self):
         if self.format == 'jpg':
             os.rename(self.path, os.path.join(os.path.dirname(self.path), self.name + ".jpg"))
             return 
-        return self.rgb_image.save(f"{self.path.split('.')[0]}.jpeg")
+        return self.rgb_image.save(f"{os.path.basename(self.path).split('.')[0]}.jpeg")
 
     def ToTiff(self):
-        return self.rgb_image.save(f"{self.path.split('.')[0]}.tiff")
+        return self.rgb_image.save(f"{os.path.basename(self.path).split('.')[0]}.tiff")
 
     def ToPDF(self):
-        return self.rgb_image.save(f"{self.path.split('.')[0]}.pdf")
+        return self.rgb_image.save(f"{os.path.basename(self.path).split('.')[0]}.pdf")
 
     def ToEps(self):
-        return self.rgb_image.save(f"{self.path.split('.')[0]}.eps")
+        return self.rgb_image.save(f"{os.path.basename(self.path).split('.')[0]}.eps")
 
     def ToGif(self):
-        return self.rgb_image.save(f"{self.path.split('.')[0]}.gif")
+        return self.rgb_image.save(f"{os.path.basename(self.path).split('.')[0]}.gif")
 
 
 
