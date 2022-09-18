@@ -10,15 +10,18 @@ class ConvertImage:
     
     def ToPng(self):
         return self.rgb_image.save(f"{self.path.split('.')[0]}.png")
-    
-#     def jpg2jpeg(self):
-#         os.rename(self.path, os.path.join(os.path.dirname(self.path), self.name + ".jpeg"))
-# 
-#     def jpeg2jpg(self):
-#         os.rename(self.path, os.path.join(os.path.dirname(self.path), self.name + ".jpg"))
         
     def ToJpg(self):
+        if self.format == 'jpeg':
+            os.rename(self.path, os.path.join(os.path.dirname(self.path), self.name + ".jpg"))
+            return 
         return self.rgb_image.save(f"{self.path.split('.')[0]}.jpg")
+    
+    def ToJpeg(self):
+        if self.format == 'jpg':
+            os.rename(self.path, os.path.join(os.path.dirname(self.path), self.name + ".jpg"))
+            return 
+        return self.rgb_image.save(f"{self.path.split('.')[0]}.jpeg")
 
     def ToTiff(self):
         return self.rgb_image.save(f"{self.path.split('.')[0]}.tiff")
